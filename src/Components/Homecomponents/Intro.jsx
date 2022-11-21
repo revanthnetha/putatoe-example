@@ -19,7 +19,7 @@ const Intro = () => {
           <ReactTypingEffect
             speed={70}
             eraseSpeed={100}
-            fontSize={"30px"}
+            fontSize={{base:"12px",sm:"18px",md:"30px"}}
             text={[
               "One Stop for all ESSENTIAL NEEDS",
               "Get all services in one app",
@@ -30,7 +30,7 @@ const Intro = () => {
         </Center>
         <Image
           width="100%"
-          px={"100px"}
+          px={{base:"30px",md:"100px",lg:"150px"}}
           rounded="2xl"
           height={"400px"}
           src="https://res.cloudinary.com/dvcksw7qc/image/upload/v1668945745/putatoe/Swiper/285290688_2126853847475764_3287433965836451005_n_bswfu5.png"

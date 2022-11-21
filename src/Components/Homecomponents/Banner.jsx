@@ -50,7 +50,7 @@ const Banner = () => {
               color={"teal"}
               colorScheme={"white"}
               aria-label="Call Sage"
-              fontSize="60px"
+              fontSize={{base:"40px",md:"60px"}}
               icon={<FaAmazonPay />}
               _hover={{
 				cursor: "pointer",
@@ -61,7 +61,7 @@ const Banner = () => {
 			}}
             />
             <Center pt={2}>
-              <Text fontSize={20}>Recharge</Text>
+              <Text fontSize={{base:"12px",md:"20px"}}>Recharge</Text>
             </Center>
           </Box>
         </Center>
@@ -75,7 +75,7 @@ const Banner = () => {
               color={"teal"}
               colorScheme={"white"}
               aria-label="Call Sage"
-              fontSize="60px"
+              fontSize={{base:"40px",md:"60px"}}
               icon={<FaTv />}
          
            _hover={{
@@ -85,7 +85,7 @@ const Banner = () => {
                 brightness:"100px"
 			}}/>
             <Center pt={2}>
-              <Text fontSize={20}>DTH Recharge</Text>
+              <Text fontSize={{base:"12px",md:"20px"}}>DTH Recharge</Text>
             </Center>
           </Box>
         </Center>
@@ -99,7 +99,7 @@ const Banner = () => {
               color={"teal"}
               colorScheme={"white"}
               aria-label="Call Sage"
-              fontSize="60px"
+              fontSize={{base:"40px",md:"60px"}}
               icon={<FaRupeeSign />}
   
     _hover={{
@@ -109,7 +109,7 @@ const Banner = () => {
                 brightness:"100px"
 			}}/>
             <Center pt={2}>
-              <Text fontSize={20}>Loans</Text>
+              <Text fontSize={{base:"12px",md:"20px"}}>Loans</Text>
             </Center>
           </Box>
         </Center>
@@ -123,7 +123,7 @@ const Banner = () => {
               color={"teal"}
               colorScheme={"white"}
               aria-label="Call Sage"
-              fontSize="60px"
+              fontSize={{base:"40px",md:"60px"}}
               icon={<FaNewspaper />}
   
     _hover={{
@@ -133,7 +133,7 @@ const Banner = () => {
                 brightness:"100px"
 			}}/>
             <Center pt={2}>
-              <Text fontSize={20}>Newspaper</Text>
+              <Text fontSize={{base:"12px",md:"20px"}}>Newspaper</Text>
             </Center>
           </Box>
         </Center>
@@ -146,7 +146,7 @@ const Banner = () => {
               color={"teal"}
               colorScheme={"white"}
               aria-label="Call Sage"
-              fontSize="60px"
+              fontSize={{base:"40px",md:"60px"}}
               icon={<FaBlog />}
        
          _hover={{
@@ -156,7 +156,7 @@ const Banner = () => {
                 brightness:"100px"
 			}}/>
             <Center pt={2}>
-              <Text fontSize={20}>Blog</Text>
+              <Text fontSize={{base:"12px",md:"20px"}}>Blog</Text>
             </Center>
           </Box>
         </Center>
@@ -169,7 +169,7 @@ const Banner = () => {
               color={"teal"}
               colorScheme={"white"}
               aria-label="Call Sage"
-              fontSize="60px"
+              fontSize={{base:"40px",md:"60px"}}
               icon={<FaBriefcase />}
   
     _hover={{
@@ -179,7 +179,7 @@ const Banner = () => {
                 brightness:"100px"
 			}}/>
             <Center pt={2}>
-              <Text fontSize={20}>Jobs</Text>
+              <Text fontSize={{base:"12px",md:"20px"}}>Jobs</Text>
             </Center>
           </Box>
         </Center>
@@ -192,7 +192,7 @@ const Banner = () => {
               color={"teal"}
               colorScheme={"white"}
               aria-label="Call Sage"
-              fontSize="60px"
+              fontSize={{base:"40px",md:"60px"}}
               icon={<FaLightbulb />}
   
     _hover={{
@@ -202,7 +202,7 @@ const Banner = () => {
                 brightness:"100px"
 			}}/>
             <Center pt={2}>
-              <Text fontSize={20}>Electricity Bill</Text>
+              <Text fontSize={{base:"12px",md:"20px"}}>Electricity Bill</Text>
             </Center>
           </Box>
         </Center>
@@ -216,7 +216,7 @@ const Banner = () => {
               color={"teal"}
               colorScheme={"white"}
               aria-label="Call Sage"
-              fontSize="60px"
+              fontSize={{base:"40px",md:"60px"}}
               icon={<ArrowRightIcon />}
                 _hover={{
 				cursor: "pointer",
@@ -226,7 +226,7 @@ const Banner = () => {
 			}}
             />
             <Center pt={2}>
-              <Text fontSize={20}>Know More</Text>
+              <Text fontSize={{base:"12px",md:"20px"}}>Know More</Text>
             </Center>
           </Box>
         </Center>
